@@ -1,0 +1,15 @@
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\bin\Debug\net8.0\TextBasedRpgProject.exe
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\bin\Debug\net8.0\TextBasedRpgProject.deps.json
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\bin\Debug\net8.0\TextBasedRpgProject.runtimeconfig.json
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\bin\Debug\net8.0\TextBasedRpgProject.dll
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\bin\Debug\net8.0\TextBasedRpgProject.pdb
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.AssemblyInfoInputs.cache
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.AssemblyInfo.cs
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.csproj.CoreCompileInputs.cache
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.sourcelink.json
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.dll
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\refint\TextBasedRpgProject.dll
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.pdb
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\TextBasedRpgProject.genruntimeconfig.cache
+C:\Users\Ratfi\OneDrive\Desktop\C# Projects\TextBasedRPG\obj\Debug\net8.0\ref\TextBasedRpgProject.dll
