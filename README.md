@@ -1,1 +1,1 @@
-Just a small little C# console based rpg to mess around with some basic fundamentals
+Console based RPG with story telling, store, combat, items
