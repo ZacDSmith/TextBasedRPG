@@ -17,7 +17,7 @@ namespace TextBasedRpgProject
         //Ecounters
         public static void firstEncounter()
         {
-            Console.WriteLine("PlaceHolder First Encounter Text");
+            Console.WriteLine($"You get spotted by a Rogue!");
             Console.ReadKey();
             combat(false, "Human Rogue",1,4);
 
@@ -48,27 +48,27 @@ namespace TextBasedRpgProject
                 Console.WriteLine("|(A)ttack (D)efend|");
                 Console.WriteLine("|(R)un    (H)eal  |");
                 Console.WriteLine("===================");
-                Console.WriteLine(" Potions: " + Program.currentPlayer.potions + " Health: "+Program.currentPlayer.health);
+                Console.WriteLine($"Potions: {Program.currentPlayer.potions} Health: {+Program.currentPlayer.health}");
                 string? input = Console.ReadLine();
                 if (input.ToLower() == "a" || input.ToLower()=="attack") 
                 { 
                     //Attack
-                    Console.WriteLine("PlaceHolder attack info " +n+ "PlaceHolder Enemy hits you back");
+                    Console.WriteLine(n + " hits you back");
                     int damage = p - Program.currentPlayer.armorValue;
                     if (damage < 0) damage = 0;
                     int attack = rand.Next(0, Program.currentPlayer.weaponValue) + rand.Next(1,4);
-                    Console.WriteLine("You lose " +damage +" health and you deal " +attack+ " damage");
+                    Console.WriteLine($"You lose {damage} health and deal {attack} damage");
                     Program.currentPlayer.health -= damage;
                     h -= attack;
                 }
                 else if (input.ToLower() == "d" || input.ToLower() == "defend")
                 {
                     //Defend
-                    Console.WriteLine("PlaceHolder defend info " + n + "PlaceHolder enemy attack into player defensive stance");
+                    Console.WriteLine($"The enemy {n} attacks into player defensive stance");
                     int damage = (p/4) - Program.currentPlayer.armorValue;
                     if (damage < 0) damage = 0;
                     int attack = rand.Next(0, Program.currentPlayer.weaponValue)/2;
-                    Console.WriteLine("You lose " + damage + " health and you deal " + attack + " damage");
+                    Console.WriteLine($"You lose {damage} health and you deal {attack} damage");
                     Program.currentPlayer.health -= damage;
                     h -= attack;
                 }
@@ -80,7 +80,7 @@ namespace TextBasedRpgProject
                         Console.WriteLine("PlaceHolder player gets hit trying to run away");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0)damage = 0;
-                        Console.WriteLine("You Lose "+damage+" health and are unable to escape.");
+                        Console.WriteLine($"You Lose {damage} health and are unable to escape.");
                         Console.ReadKey();
                     }
                     else
@@ -95,7 +95,7 @@ namespace TextBasedRpgProject
                     //Heal
                     if (Program.currentPlayer.potions == 0)
                     {
-                        Console.WriteLine("PlaceHolder text for no potions");
+                        Console.WriteLine("No potions left");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0) damage = 0;
                         Console.WriteLine("You get hit by " + n + " losing " + damage + " health");
@@ -103,7 +103,7 @@ namespace TextBasedRpgProject
                     else
                     {
                         int potionV = 5;
-                        Console.WriteLine("You health for " + potionV + " health");
+                        Console.WriteLine("You heal for " + potionV + " health");
                         Program.currentPlayer.health += potionV;
                         int damage = (p/2) - Program.currentPlayer.armorValue;
                         if(damage < 0)damage = 0;
