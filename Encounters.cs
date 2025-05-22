@@ -53,7 +53,7 @@ namespace TextBasedRpgProject
                 if (input.ToLower() == "a" || input.ToLower()=="attack") 
                 { 
                     //Attack
-                    Console.WriteLine(n + " hits you back");
+                    Console.WriteLine($"{n} hits you back");
                     int damage = p - Program.currentPlayer.armorValue;
                     if (damage < 0) damage = 0;
                     int attack = rand.Next(0, Program.currentPlayer.weaponValue) + rand.Next(1,4);
@@ -77,7 +77,7 @@ namespace TextBasedRpgProject
                     //Run
                     if(rand.Next(0, 2) == 0) 
                     {
-                        Console.WriteLine("PlaceHolder player gets hit trying to run away");
+                        Console.WriteLine("You get hit trying to run away");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0)damage = 0;
                         Console.WriteLine($"You Lose {damage} health and are unable to escape.");
@@ -85,7 +85,7 @@ namespace TextBasedRpgProject
                     }
                     else
                     {
-                        Console.WriteLine("PlaceHolder Escape Text.");
+                        Console.WriteLine("You run away at full speed and manage to escape... for now.");
                         Console.ReadKey();
                         //go to store
                     }
@@ -98,16 +98,16 @@ namespace TextBasedRpgProject
                         Console.WriteLine("No potions left");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0) damage = 0;
-                        Console.WriteLine("You get hit by " + n + " losing " + damage + " health");
+                        Console.WriteLine($"You get hit by {n} losing {damage} health");
                     }
                     else
                     {
                         int potionV = 5;
-                        Console.WriteLine("You heal for " + potionV + " health");
+                        Console.WriteLine($"You heal for {potionV} health");
                         Program.currentPlayer.health += potionV;
                         int damage = (p/2) - Program.currentPlayer.armorValue;
                         if(damage < 0)damage = 0;
-                        Console.WriteLine("You lose "+ damage + " health");
+                        Console.WriteLine($"You lose {damage} health");
                     }
                     Console.ReadKey();
                 }

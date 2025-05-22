@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zsmith\\OneDrive - Radius Financial Group\\Desktop\\Github Projects\\TextBasedRPG\\TextBasedRpgProject.csproj": {}
+    "C:\\Users\\Ratfi\\OneDrive\\Desktop\\C# Projects\\TextBasedRPG\\TextBasedRpgProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zsmith\\OneDrive - Radius Financial Group\\Desktop\\Github Projects\\TextBasedRPG\\TextBasedRpgProject.csproj": {
+    "C:\\Users\\Ratfi\\OneDrive\\Desktop\\C# Projects\\TextBasedRPG\\TextBasedRpgProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zsmith\\OneDrive - Radius Financial Group\\Desktop\\Github Projects\\TextBasedRPG\\TextBasedRpgProject.csproj",
+        "projectUniqueName": "C:\\Users\\Ratfi\\OneDrive\\Desktop\\C# Projects\\TextBasedRPG\\TextBasedRpgProject.csproj",
         "projectName": "TextBasedRpgProject",
-        "projectPath": "C:\\Users\\zsmith\\OneDrive - Radius Financial Group\\Desktop\\Github Projects\\TextBasedRPG\\TextBasedRpgProject.csproj",
-        "packagesPath": "C:\\Users\\zsmith\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zsmith\\OneDrive - Radius Financial Group\\Desktop\\Github Projects\\TextBasedRPG\\obj\\",
+        "projectPath": "C:\\Users\\Ratfi\\OneDrive\\Desktop\\C# Projects\\TextBasedRPG\\TextBasedRpgProject.csproj",
+        "packagesPath": "C:\\Users\\Ratfi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ratfi\\OneDrive\\Desktop\\C# Projects\\TextBasedRPG\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zsmith\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ratfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
